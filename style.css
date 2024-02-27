@@ -64,6 +64,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+
    
 }
 
@@ -73,6 +74,7 @@ align-items: center;
     margin-left: 85px;
     margin-bottom: 85px;
     align-items: center;
+    
 }
 
 .image-box {
@@ -91,4 +93,11 @@ align-items: center;
 
 .photography, .camping, .rock-climbing {
     color: white;
+}
+
+.project-one, .project-two, .project-three {
+    color: white;
+    word-wrap: break-word;
+    margin-left: 85px;
+
 }
