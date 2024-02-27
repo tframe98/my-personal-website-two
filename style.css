@@ -16,7 +16,7 @@ ul {
 }
 
 li {
-    
+    margin-left: 85px;
     float: left;
     
 }
@@ -41,6 +41,9 @@ li a:hover {
 }
 
 .header {
+    margin-top: 35px;
+    margin-left: 85px;
+    
     
     color: white;
 }
@@ -84,4 +87,8 @@ align-items: center;
     width: auto;
     flex-grow: 0;
     flex-shrink: 0;
+}
+
+.photography, .camping, .rock-climbing {
+    color: white;
 }
