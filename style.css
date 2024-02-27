@@ -39,3 +39,38 @@ li a:hover {
 .active {
     background-color: #1e90ff;
 }
+
+.header {
+    width: 50%;
+    color: white;
+}
+
+.intro {
+    width: 50%;
+    color: white;
+}
+
+.quote {
+    width: 50%;
+    color: white;
+}
+
+.author {
+    width: 50%;
+    color: white
+}
+
+.container {
+    display:flex;
+    align-items: center
+   
+}
+
+.content {
+    margin: 85px;
+    align-items: center;
+}
+
+.image-box {
+    margin: 85px;
+}
