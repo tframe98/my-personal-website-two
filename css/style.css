@@ -47,6 +47,17 @@ h1 {
     margin: 85px
 }
 
+.succes-header{
+    text-align: center;
+
+}
+
+p {
+    margin: 85px;
+    text-align: center;
+    color: white;
+}
+
 .header {
     margin-top: 35px;
     margin-left: 85px;
@@ -136,7 +147,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color:rgb(105, 255, 18);
-    color: white;
+    color: rgb(14, 14, 14);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
