@@ -107,6 +107,40 @@ align-items: center;
 
 }
 
+.container-header {
+    color: white;
+    margin: none;
+}
+
 .container-contact {
+    margin: 85px;
+    border-radius: 5px;
+    background-color:  #454444;
+    padding: 20px;
+    color: white; 
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(227, 252, 212);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:rgb(105, 255, 18);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:rgb(227, 252, 212);
     
 }
