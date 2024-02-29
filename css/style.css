@@ -23,7 +23,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
@@ -31,25 +31,27 @@ li a {
 }
 
 li a:hover {
-    background-color: #b1d5f9;
+    background-color:rgb(211, 245, 191);
+    color: #000;
 }
 
 
 
 .active {
-    background-color: #1e90ff;
+    background-color: rgb(105, 255, 18);
+    color: #000;
 }
 
 h1 {
-    color: white;
+    color: rgb(105, 255, 18);
+    margin: 85px
 }
 
 .header {
     margin-top: 35px;
     margin-left: 85px;
+    text-align: center;
     
-    
-    color: white;
 }
 
 .intro, .quote, .author {
@@ -87,7 +89,6 @@ align-items: center;
     margin-bottom: 85px;
 }
 
-/* i did not know you can combine multiple class id's?*/
 
 .content, .image-box {
     width: auto;
