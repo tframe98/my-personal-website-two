@@ -16,8 +16,8 @@ ul {
 }
 
 li {
-    margin-left: 85px;
-    float: left;
+    margin-left: 0;
+    float: none;
     
 }
 
@@ -158,11 +158,15 @@ input[type=submit]:hover {
 
 #menu-toggle {
     display: none;
+    
 }
 
 .hamburger-menu {
     display: none;
     cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .hamburger-menu span{
@@ -174,27 +178,12 @@ input[type=submit]:hover {
 
 nav ul {
     display: flex;
-    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #151515;
+    width: 100%;
+    position: relative;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        position: absolute;
-        background-color: #343434;
-        width: 100%;
-        top: 48px;
-        left: 0;
-    }
 
-    #menu-toggle:checked + .hamburger-menu + ul {
-        display: flex;
-        flex-direction: column
-    }
-    .hamburger-menu {
-        display: block;
-    }
-}
-
-#menu-toggle:checked + .hamburger-menu + ul {
-    display: block
-}
