@@ -113,6 +113,9 @@ align-items: center;
 }
 
 .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 85px;
     border-radius: 5px;
     background-color:  #454444;
@@ -143,4 +146,55 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color:rgb(227, 252, 212);
     
+}
+
+@media (max-width: 600px) {
+    .containner-contact {
+        padding: 10px;
+        margin: 20px;
+    }
+   
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu span{
+    display: block;
+    height: 2px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        position: absolute;
+        background-color: #343434;
+        width: 100%;
+        top: 48px;
+        left: 0;
+    }
+
+    #menu-toggle:checked + .hamburger-menu + ul {
+        display: flex;
+        flex-direction: column
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+#menu-toggle:checked + .hamburger-menu + ul {
+    display: block
 }

@@ -10,7 +10,7 @@ todays goal is to add a contact page linked to a success message, no javascript 
 
 challenges:
 
-
+figuring out how to use the hamburger menu without javascript
 
 
 
